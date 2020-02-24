@@ -241,29 +241,7 @@ figcaption {
 
   }
 
-.container-post{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 6fr 1fr;
-  grid-template-areas: "hd hd hd "
-                        "main main sd"
-                        "ft ft ft " ;
+
+.container{
+  padding: 50px;
 }
-
-.header-post{
-  grid-area: hd;
-}
-
-.side-post{
-  grid-area: sd;
-}
-
-.content-post{
-  grid-area: main;
-}
-
-.footer-post{
-  grid-area: ft;
-
-}
-
